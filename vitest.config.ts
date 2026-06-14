@@ -4,6 +4,10 @@ export default defineConfig({
   test: {
     include: ['__tests__/**/*.test.ts'],
     environment: 'node',
+    // In CI, also emit a JUnit report for Codecov Test Analytics; locally the
+    // default reporter is enough, so we don't litter the tree with XML.
+    reporters: process.env.CI ? ['default', 'junit'] : ['default'],
+    outputFile: { junit: 'test-report.junit.xml' },
     coverage: {
       provider: 'v8',
       // cobertura is the format Codecov ingests; text is for the local/CI
