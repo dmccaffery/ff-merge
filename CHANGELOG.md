@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0](https://github.com/bitwise-media-group/ff-merge/compare/v1.1.0...v1.2.0) (2026-06-24)
+
+
+### Features
+
+* close linked issues on fast-forward merge ([02f04ef](https://github.com/bitwise-media-group/ff-merge/commit/02f04ef1ed7c31cc8800de271612b61da35f3d67))
+
 ## [1.1.0](https://github.com/bitwise-media-group/ff-merge/compare/v1.0.0...v1.1.0) (2026-06-16)
 
 
