@@ -1,5 +1,29 @@
 # Changelog
 
+## [1.5.0](https://github.com/dmccaffery/ff-merge/compare/v1.4.0...v1.5.0) (2026-11-11)
+
+
+### Features
+
+* add require-label input to skip PRs without an arming label ([#2](https://github.com/dmccaffery/ff-merge/issues/2)) ([0e144a9](https://github.com/dmccaffery/ff-merge/commit/0e144a948bb262bb8ba2aa2b4affc3184c9e6bfc))
+* close linked issues on fast-forward merge ([02f04ef](https://github.com/dmccaffery/ff-merge/commit/02f04ef1ed7c31cc8800de271612b61da35f3d67))
+* fast-forward merge action and reusable workflows ([bcb6959](https://github.com/dmccaffery/ff-merge/commit/bcb69596ab9fbcfbc5e02043b40d7a0a17782fb8))
+* reuse a sticky status comment instead of posting a new one each run ([45ec9c9](https://github.com/dmccaffery/ff-merge/commit/45ec9c9426d9c00a2c1cf50d0ce6e764d6688c17))
+* squash-merge pull requests from configured bot authors ([167b7e3](https://github.com/dmccaffery/ff-merge/commit/167b7e3584a0ba93c8f395a267d6217719212162))
+
+
+### Bug Fixes
+
+* **ci:** check out repo in coverage job so Codecov can path-fix the report ([b8c3706](https://github.com/dmccaffery/ff-merge/commit/b8c3706ba9c9448e9abda09e810052f3fd96626f))
+* **deps:** update bitwise-media-group/github-workflows action to v6.1.1 ([#44](https://github.com/dmccaffery/ff-merge/issues/44)) ([0c72966](https://github.com/dmccaffery/ff-merge/commit/0c729665b34aaf65a8187205205820f4a348e3b0))
+* **deps:** update bitwise-media-group/github-workflows action to v6.2.0 ([#53](https://github.com/dmccaffery/ff-merge/issues/53)) ([4a6587f](https://github.com/dmccaffery/ff-merge/commit/4a6587f9c466dd964f2bbbec42478dd70ae469f0))
+* **deps:** update bitwise-media-group/github-workflows action to v6.3.0 ([#89](https://github.com/dmccaffery/ff-merge/issues/89)) ([f4f070e](https://github.com/dmccaffery/ff-merge/commit/f4f070e49c7f26a17a24d3c3fa967137027c6c5d))
+* **deps:** update bitwise-media-group/github-workflows action to v7.0.1 ([#152](https://github.com/dmccaffery/ff-merge/issues/152)) ([75111e0](https://github.com/dmccaffery/ff-merge/commit/75111e0d4d9279796b260ed681ba01e985c2ddc7))
+* **deps:** update bitwise-media-group/github-workflows action to v8 ([#153](https://github.com/dmccaffery/ff-merge/issues/153)) ([6bf8d3d](https://github.com/dmccaffery/ff-merge/commit/6bf8d3d9df4c3127afefd1be3cba0e49bb7d6b36))
+* **deps:** update bitwise-media-group/github-workflows action to v8.0.1 ([#180](https://github.com/dmccaffery/ff-merge/issues/180)) ([2126b36](https://github.com/dmccaffery/ff-merge/commit/2126b365b8275441d8fae7fe12fdfd0f6770a299))
+* **deps:** update bitwise-media-group/github-workflows action to v8.1.0 ([#206](https://github.com/dmccaffery/ff-merge/issues/206)) ([b4e8fd2](https://github.com/dmccaffery/ff-merge/commit/b4e8fd23dc60552f979a1de732638539e935dbc8))
+* **deps:** update bitwise-media-group/github-workflows action to v8.1.1 ([#216](https://github.com/dmccaffery/ff-merge/issues/216)) ([413d04d](https://github.com/dmccaffery/ff-merge/commit/413d04d253edd504aae0ebaacc047cc8a94ed5b3))
+
 ## [1.4.0](https://github.com/bitwise-media-group/ff-merge/compare/v1.3.0...v1.4.0) (2026-08-15)
 
 
